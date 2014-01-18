@@ -249,12 +249,12 @@ public class logic : MonoBehaviour {
 		player.currentPlanet = startPlanet;
 
 		// starting resources
-		//player.currentPlanet.resources[resourcesNameMap["Metal"]] = 600;
-		//player.currentPlanet.resources[resourcesNameMap["Crystal"]] = 500;
-		//player.currentPlanet.resources[resourcesNameMap["Deuterium"]] = 0;
-		player.currentPlanet.resources[resourcesNameMap["Metal"]] = 5000;
-		player.currentPlanet.resources[resourcesNameMap["Crystal"]] = 5000;
-		player.currentPlanet.resources[resourcesNameMap["Deuterium"]] = 5000;
+		player.currentPlanet.resources[resourcesNameMap["Metal"]] = 600;
+		player.currentPlanet.resources[resourcesNameMap["Crystal"]] = 500;
+		player.currentPlanet.resources[resourcesNameMap["Deuterium"]] = 0;
+		//player.currentPlanet.resources[resourcesNameMap["Metal"]] = 5000;
+		//player.currentPlanet.resources[resourcesNameMap["Crystal"]] = 5000;
+		//player.currentPlanet.resources[resourcesNameMap["Deuterium"]] = 5000;
 	}
 	//----------------------------------------------------//
 	#endregion
